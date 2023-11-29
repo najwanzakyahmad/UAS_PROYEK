@@ -1,0 +1,21 @@
+/* body {
+  background-color: #fce192;
+} */
+
+div.scroll {
+  width: vh-100;
+  height: 1100px;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow: visible;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    overflow: hidden;
+  }
+}
